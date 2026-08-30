@@ -1,6 +1,6 @@
 ## 檔案說明
 - train.py : 模型訓練 (路徑要設對)
-- data.py : 建立一個 PyTorch 的語意分割 Dataset，把 JPEGImages.256 裡的 JPG 影像，和 SegmentationClass.256 整合，然後提供給模型訓練
+- data.py : 建立一個 PyTorch 的語意分割 Dataset，把 JPEGImages.256 裡的 JPG 圖像，和 SegmentationClass.256 整合，然後提供給模型訓練
 - utils.py : 將輸入圖像調整成 256×256 的尺寸，作為訓練使用
 - data_augmentation.py : 資料增強 (隨機旋轉正負30度)
 - test_mask.py : 將遮罩的標準答案繪製在原始圖像中，方便觀察模型分割的結果
